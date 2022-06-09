@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title></head>
+    <body>
+    <style>
+        *{
+            padding: 0;
+             margin:1;
+              box-sizing: border-box;
+               font-family:'Times New Roman', Times, serif;
+            }
+    header{
+        height: 760px;
+        background: url('tea.jpg') no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    nav{
+        height:70px;
+        padding: 0px 10px;
+        background: white;
+        color: black;
+        box-shadow: 3px 0px 6px brown;
+        justify-content: space-between;
+        display: flex;
+        align-items: center;
+    }
+    .logo{
+        font-size: 3em;
+        font-style:inherit;
+        font-weight: bold;
+        letter-spacing: 2px;
+
+    }
+    .logo span{
+        color: red;
+    }
+    .menu a{
+        color:rgb(231, 12, 140);
+        padding: 10px 20px;
+    }
+    .h-text{
+        position: absolute;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 20px;
+        top:40%;
+        left:6%;
+        color: white;
+    }
+    .h-text h1{
+        text-align:center;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        font-size: 4em;
+        letter-spacing: 4px;
+        line-height: 2em;
+        color: white;
+    }
+    .h-text h1 span{
+        color: brown;
+
+    }
+    .h-text h2{
+        font-size: 3em;
+        letter-spacing: 4px;
+        margin-bottom: 1em;
+        color: white;
+    }
+    #order{
+        color:rgb(229, 238, 238);
+        padding: 8px 10px;
+        background: brown;
+    }
+        </style>
+    <header>
+        <nav>
+           <div class="logo"> <span>Cafe Coffee </span>Day</div>
+           <div class="menu">
+               <a href="#">Home</a>
+               <a href="#">Menu</a>
+               <a href="#">Offers</a>
+               <a href="#">Order</a>
+               <a href="#">Contact</a>
+           </div> 
+        </nav>
+        <div class="h-text">
+        <h1 style="color: white;">A Lot can Happen Over Coffee </h1></div>
+        <h2 style="color: white;"> Amazing deals</h2>
+        <p style="color: white;">Let's Order for Delivery, Pick-up, </p>
+        <a href="#" id="order">Order now!!</a>
+        </div>
+    </header>
+    
+</body>
+</html>
